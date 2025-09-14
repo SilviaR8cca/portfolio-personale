@@ -1,0 +1,80 @@
+
+
+.home-container{
+    padding-top: 80px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.skills-section{
+    margin-top: 60px;
+}
+
+
+
+.skill{
+    margin:20px auto;
+    max-width: 500px;
+    text-align: left;
+    background: #fff;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 15px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.skill span{
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+}
+
+.skill p{
+    font-size: 0.9rem;
+    color: #555;
+    margin-top: 8px;
+}
+
+
+.bar{
+    height: 10px;
+    border-radius: 5px;
+    background: #ddd;
+    overflow: hidden;
+    margin-top: 5px;
+    position: relative;
+}
+
+.bar::after{
+    content: '';
+    display: block;
+    height: 100%;
+  
+}
+
+.bar.html::after{
+    width: 100%;
+    background-color: #e44d26;
+}
+
+.bar.css::after{
+    width: 100%;
+    background-color: #264de4;
+}
+
+.bar.js::after{
+    width: 85%;
+    background-color: #f0db4f;
+}
+
+.bar.react::after{
+    width: 80%;
+    background-color: #61dafb;
+}
+
+.bar.ts::after{
+    width: 80%;
+    background-color: #ee82ee;
+}
