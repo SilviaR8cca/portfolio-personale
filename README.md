@@ -1,7 +1,7 @@
 # Mio Progetto
 
 Questo è il mio portfolio personale in React.
-[Vedi il sito live](https://github.com/SilviaR8cca/portfolio-personale.git)
+[Vedi il sito live](http://localhost:3001/mio-progetto#/home)
 
 #  Portfolio Personale - Silvia Rocca
 
